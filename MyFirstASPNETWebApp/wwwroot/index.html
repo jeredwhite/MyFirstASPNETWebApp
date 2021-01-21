@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/jpg" href="https://www.favicon.cc/logo3d/957941.png" />
+    <link href="css/main.css" rel="stylesheet" />
+    <script src="js/functions.js"></script>
+
+    <title>My First Web App</title>
+</head>
+<body>
+    <h1>Jered White</h1>
+    <br />
+    <div id="me">
+        <img src="images/White, Jered.jpg" alt="Me loving the Core" style="max-width: 300px; max-height: 500px" />
+    </div>
+    
+    <div id="gain">
+        <p>I hope more than anything to have a good foundation using strongly typed languages. Previous to this class, I have no such experience. I don't plan on doing front end dev, but I know it will always be handy understanding how it works.</p>
+    </div>
+    
+    <div id="careers">
+        <h3>My desired careers:</h3>
+        <ol>
+            <li>Customer Success</li>
+            <li>Software Dev</li>
+            <li>Small Business Tech. Consulting</li>
+        </ol>
+        <br />
+    </div>
+
+    <div id="output-container">
+        <p id="output">Your overall grade will output here!</p>
+    </div>
+
+    <div id="form">
+        <h2>Grades:</h2>
+        <form onsubmit="return false">
+            <label>Assignments: </label>
+            <input id="assignments" type="text" maxlength="2" placeholder="Number between 0 - 50" size="18" />
+            <br /><br />
+            <label>Group Project: </label>
+            <input id="group" type="text" maxlength="2" placeholder="Number between 0 - 10" size="18" />
+            <br /><br />
+            <label>Quizzes: </label>
+            <input id="quizzes" type="text" maxlength="2" placeholder="Number between 0 - 10" size="18" />
+            <br /><br />
+            <label>Exams: </label>
+            <input id="exams" type="text" maxlength="2" placeholder="Number between 0 - 20" size="18" />
+            <br /><br />
+            <label>Intex: </label>
+            <input id="intex" type="text" maxlength="2" placeholder="Number between 0 - 10" size="18" />
+            <br /><br /><br />
+            <button id="submitForm" type="button" onclick="processForm()">Submit Form</button>
+        </form>
+    </div>
+    <br /><br />
+
+</body>
+</html>
